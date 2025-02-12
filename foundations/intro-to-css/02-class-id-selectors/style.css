@@ -1,0 +1,21 @@
+/* rules for ids */
+#id-number-2 {
+    color: #0000ff;
+    font-size: 36px;
+}
+
+#id-number-4 {
+    background-color: #40de84;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* rules for classes */
+.cl-common {
+    background-color: #f73653;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+.cl-only-3 {
+    font-size: 24px;
+}
