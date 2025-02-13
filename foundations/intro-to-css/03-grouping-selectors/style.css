@@ -1,0 +1,15 @@
+.btn {
+    padding: 14px 20px;
+    cursor: pointer;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+    font-size: 28px;
+}
+
+.btn-yes {
+    background-color: black;
+    color: white;
+}
+
+.btn-no {
+    background-color: yellow;
+}
