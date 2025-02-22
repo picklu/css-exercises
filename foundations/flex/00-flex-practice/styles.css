@@ -50,6 +50,7 @@
 .photo-grid {
     width: 900px;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -58,4 +59,12 @@
     border: 1px solid #fff;
     width: 300px;
     height: 300px;
+}
+
+.first-item {
+    order: 1;
+}
+
+.fifth-item {
+    order: -1;
 }
