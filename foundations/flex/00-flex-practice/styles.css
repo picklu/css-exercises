@@ -96,3 +96,21 @@
     flex: initial;
     width: 300px;
 }
+
+.container {
+    background-color: peachpuff;
+    outline: 2px solid brown;
+    height: 140px;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.container .item {
+    background-color: rgb(50, 228, 228);
+    height: 60px;
+    width: 60px;
+    outline: 2px solid brown;
+
+}
