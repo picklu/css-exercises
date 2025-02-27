@@ -64,6 +64,25 @@
 }
 
 .form-container form input[type="button"] {
+    background-color: #7e7a7a;
+    box-shadow: 0 12px 8px -8px #585756;
+    color: #fff;
+    flex-grow: 1;
+    flex-basis: 80px;
+}
+
+.form-container form input[type="button"]:hover {
+    background-color: #4b4849;
+    box-shadow: 0 12px 12px -12px #5d5956;
+    color: #bbb;
+    flex-grow: 1;
+    flex-basis: 80px;
+}
+
+.form-container form input[type="button"]:active {
+    background-color: #525050;
+    box-shadow: none;
+    color: #fff;
     flex-grow: 1;
     flex-basis: 80px;
 }
