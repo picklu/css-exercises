@@ -31,6 +31,43 @@
     margin-left: auto;
 }
 
+.form-container {
+    background-color: peachpuff;
+    width: 100%;
+    height: 150px;
+    display: grid;
+    align-items: center;
+}
+
+.form-container form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin: 16px;
+}
+
+.form-container form input {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.form-container form input[type="text"] {
+    flex-grow: 2;
+    flex-basis: 160px;
+}
+
+.form-container form input[type="email"] {
+    flex-grow: 3;
+    flex-basis: 200px;
+}
+
+.form-container form input[type="button"] {
+    flex-grow: 1;
+    flex-basis: 80px;
+}
+
 .header-container {
     color: #5995DA;
     background-color: #D6E9FE;
