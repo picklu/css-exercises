@@ -1,6 +1,16 @@
+* {
+  font-family:'Courier New', Courier, monospace; 
+  margin: 0;
+  padding: 0;
+}
+
 .header  {
   font-family: monospace;
   background: papayawhip;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
@@ -14,12 +24,15 @@
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex;
+  gap: 16px;
 }
 
 a {
   font-size: 22px;
-  background: white;
+  font-weight: 600;
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+  background-color: #ffffff;
 }
