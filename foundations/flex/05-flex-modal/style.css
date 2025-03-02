@@ -65,23 +65,16 @@ button {
   border-radius: 8px;
 }
 
-.buttons .confirm {
+.confirm {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
 }
 
-.buttons .cancel {
+.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 16px;
 }
 
 .header {
@@ -89,12 +82,8 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
-.buttons {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: flex-end;
-  gap: 8px; 
+.text {
+  margin-bottom: 16px;
 }
